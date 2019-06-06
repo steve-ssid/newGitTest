@@ -1,0 +1,2442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+  
+  
+    <title>White Plum Kitchen Sink - Bootstrap 3 Theme</title>
+    
+   
+   
+   
+   
+     <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+ <link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	 
+	 
+   
+	
+	 <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+	
+	
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+	
+	<script src="js/wow.min.js"></script>
+	
+	<script src="js/swiper.min.js"></script>
+	
+	<script src="js/myscripts.js"></script>
+	
+	
+    <style>
+      body {
+        padding-bottom: 60px;
+      }
+    </style>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  </head>
+  
+  <body>
+  
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".header-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+			
+			<div id="navbar-close" class="hidden" style="padding-right:8px;margin-top:-5px;">
+									  <i class="fa fa-close fa-2x"></i>
+									</div>
+			
+			
+          </button>
+          <a class="navbar-brand" href="#"><img src="http://127.0.0.1/torsion/wp-content/uploads/2018/12/torsion_logo.gif" class="img-responsive" alt="Torsion Dynamics"></a>
+        </div>
+        
+        <div class="collapse navbar-collapse header-collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">CSS <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#headings">Headings</a></li>
+                <li><a href="#content-formatting">Content</a></li>
+                <li><a href="#tables">Tables</a></li>
+                <li><a href="#forms">Forms</a></li>
+                <li><a href="#images">Images</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Components <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#dropdowns">Dropdowns</a></li>
+                <li><a href="#input-groups">Input Groups</a></li>
+                <li><a href="#navs">Navs</a></li>
+                <li><a href="#navbar">Navbar</a></li>
+                <li><a href="#pagination">Pagination</a></li>
+                <li><a href="#alerts">Alerts</a></li>
+                <li><a href="#labels">Labels</a></li>
+                <li><a href="#progress">Progress</a></li>
+                <li><a href="#media-object">Media Object</a></li>
+                <li><a href="#list-groups">List Groups</a></li>
+                <li><a href="#panels">Panels</a></li>
+                <li><a href="#wells">Wells</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Source <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">CSS Files</li>
+                <li><a href="../dist/css/bootstrap.css">bootstrap.css</a></li>
+                <li><a href="../dist/css/bootstrap.min.css">bootstrap.min.css</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">LESS Files</li>
+                <li><a href="../less/variables.less">variables.less</a></li>
+                <li><a href="../less/theme.less">theme.less</a></li>
+              </ul>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+	
+	
+	
+	
+	<script>
+$(document).ready(function(){
+  $('.dropdown-submenu a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
+	
+	
+	
+	
+	<div class="space"></div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+	  
+	  
+						<div class="navbar-header">
+						  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".header-collapse2">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							
+							<div id="navbar-close" class="hidden" style="padding-right:8px;margin-top:-5px;">
+													  <i class="fa fa-close fa-2x white"></i>
+													</div>
+							
+						  </button>
+						  <a class="navbar-brand" href="#"><img src="http://127.0.0.1/torsion/wp-content/uploads/2018/12/torsion_logo.gif" class="img-responsive" alt="Torsion Dynamics"></a>
+						</div>
+        
+        <div class="collapse navbar-collapse header-collapse2">
+          <ul class="nav navbar-nav">
+		  
+		  
+		  
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">CSS <span class="caret"></span></a>
+              
+			  <ul class="dropdown-menu">
+						<li><a href="#headings">Headings</a></li>
+						
+				
+						
+						<li class="dropdown-submenu">
+						<a href="#"  class="test" tabindex="-1">Content <i class="fa fa-caret-down fa-1x"></i></a>
+						
+						
+								<ul class="dropdown-menu">
+								<li><a href="#dropdowns">Dropdowns</a></li>
+								<li><a href="#input-groups">Input Groups</a></li>
+								<li><a href="#navs">Navs</a></li>
+								<li><a href="#navbar">Navbar</a></li>
+								<li><a href="#pagination">Pagination</a></li>
+								<li><a href="#alerts">Alerts</a></li>
+								<li><a href="#labels">Labels</a></li>
+								<li><a href="#progress">Progress</a></li>
+								<li><a href="#media-object">Media Object</a></li>
+								<li><a href="#list-groups">List Groups</a></li>
+								<li><a href="#panels">Panels</a></li>
+								<li><a href="#wells">Wells</a></li>
+							  </ul>
+						
+						
+						</li>
+
+						
+						
+						
+						
+						<li><a href="#tables">Tables</a></li>
+						<li><a href="#forms">Forms</a></li>
+						<li><a href="#images">Images</a></li>
+				
+				
+              </ul>
+			  
+			  
+			  
+			  
+			  
+            </li>
+			
+			
+			
+			
+			
+			
+			
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Components <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#dropdowns">Dropdowns</a></li>
+                <li><a href="#input-groups">Input Groups</a></li>
+                <li><a href="#navs">Navs</a></li>
+                <li><a href="#navbar">Navbar</a></li>
+                <li><a href="#pagination">Pagination</a></li>
+                <li><a href="#alerts">Alerts</a></li>
+                <li><a href="#labels">Labels</a></li>
+                <li><a href="#progress">Progress</a></li>
+                <li><a href="#media-object">Media Object</a></li>
+                <li><a href="#list-groups">List Groups</a></li>
+                <li><a href="#panels">Panels</a></li>
+                <li><a href="#wells">Wells</a></li>
+              </ul>
+            </li>
+			
+			
+			
+			
+			
+			
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Source <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">CSS Files</li>
+                <li><a href="../dist/css/bootstrap.css">bootstrap.css</a></li>
+                <li><a href="../dist/css/bootstrap.min.css">bootstrap.min.css</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">LESS Files</li>
+                <li><a href="../less/variables.less">variables.less</a></li>
+                <li><a href="../less/theme.less">theme.less</a></li>
+              </ul>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+	
+	
+
+	
+	
+	<script>
+$(document).ready(function(){
+
+
+ 
+		
+  $("#collapse1").on("hide.bs.collapse", function(){
+    $("#collapsebtn").html('<i class="fa fa-phone fa-lg"></i> Show More');
+  });
+  
+  $("#collapse1").on("show.bs.collapse", function(){
+    $("#collapsebtn").html('<i class="fa fa-clock-o fa-lg"></i> Show Less');
+  });
+  
+  	
+		
+		
+		
+		$("#collapsebtn2").click(function() {
+  $( "#collapse2" ).slideToggle( "slow" );
+});
+
+});
+</script>
+	
+	
+	
+	
+	
+	
+	
+	<div class="container">
+  <h2>Collapsible List Group new version</h2>
+  
+    
+    
+      
+        <ul class="list-group">
+          <li class="list-group-item">One</li>
+          <li class="list-group-item">Two</li>
+          <li class="list-group-item">Three</li>
+          
+          
+            <div id="collapse1" class="collapse">
+            
+             <li class="list-group-item">four</li>
+              <li class="list-group-item">five</li>
+               <li class="list-group-item">six</li>
+			   
+			   
+			    <li class="list-group-item">seven</li>
+              <li class="list-group-item">eight</li>
+               <li class="list-group-item">nine</li>
+             
+              </div>
+        </ul>
+        
+        
+        
+     
+      
+       <a data-toggle="collapse" href="#collapse1" id="collapsebtn"><i class="fa fa-phone fa-lg"></i> Show More</a>
+    </div>
+ 
+	
+	
+	
+	
+	
+	<div class="container">
+										<div class="row"> 
+										
+										
+										 <div class="col-xs-6">
+										 dfdfsdfsdfsdf
+										 </div>
+										  <div class="col-xs-6">
+										 dfdfsdfsdfsdf
+										 </div>
+										 
+										  <div id="collapse2" class="collapse">
+										  
+												  <div class="col-xs-6">
+												 dfdfsdfsdfsdf
+												 </div>
+												   <div class="col-xs-6">
+												 dfdfsdfsdfsdf
+												 </div>
+												  <div class="col-xs-6">
+												 dfdfsdfsdfsdf
+												 </div>
+												   <div class="col-xs-6">
+												 dfdfsdfsdfsdf
+												 </div>
+												  <div class="col-xs-6">
+												 dfdfsdfsdfsdf
+												 </div>
+												   <div class="col-xs-6">
+												 dfdfsdfsdfsdf
+												 </div>
+										 
+										 </div>
+										 
+										 
+										 
+										  <div class="col-xs-12">
+												
+												 </div>
+										 
+							  </div>
+							 
+							 </div>
+										 
+	
+	
+	
+	 <a  href="#" id="collapsebtn2"><i class="fa fa-phone fa-lg"></i> Show More</a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="container-fluid bg-primary">
+								<div class="container">
+								<div class="row"> 
+									 <div class="col-lg-12">
+									 <div class="text-jumbo"><h1 class="text-success text-center text-uppercase white">Creating Immersive VR Content</h1></div>
+										
+																				
+										 <h3 class="text-center text-uppercase white no-margin-top"><div id="the-content"><p>The promise reality has always been enormous. To some it’s the concept of an. reality isn’t about replacing real life, it’s about providing experiences that were previously unimaginable.</p>
+</div></h3>
+										 
+										 <hr class="dashed-white"><h2 class="text-center text-uppercase white no-margin-top">See some of our VR work below.</h2>
+											   
+										 
+									</div>	
+
+
+								 <div class="col-md-4">
+									
+									<img src="./images/training.jpg" class="img-circle center-block" width="150" height="150">
+									
+									<h3 class="text-center white">VR Content</h3>
+									
+									<p class="text-center">
+									The promise has always been enormous. To some it’s the concept of an alternative existence. But virtual reality real life, it’s about providing experiences that were previously 
+									The promise of virtual reality has always been enormous. To some it’s the concept of an alternative existence. But virtual reality isn’t about replacing real life, it’s about providing experiences that were previously 
+									
+									
+									</p>
+									<div class="border-right"></div>
+								</div>
+								
+								 <div class="col-md-4">
+									
+										<img src="./images/training.jpg" class="img-circle center-block" width="150" height="150">
+									
+									<h3 class="text-center white">VR Content</h3>
+									
+									<p class="text-center">
+									The promise of virtual reality has  been enormous. To some it’s the concept of an alternative existence. But virtual reality isn’t about replacing real life, it’s about providing experiences that were previously 
+									</p>
+									<div class="border-right"></div>
+            
+								</div>
+
+								
+								 <div class="col-md-4">
+									
+										<img src="./images/training.jpg" class="img-circle center-block" width="150" height="150">
+									
+									<h3 class="text-center white">VR Content</h3>
+									
+									<p class="text-center">
+									The promise of virtual reality has always been enormous. To some it’s the concept of an alternative existence. But virtual reality isn’t about replacing real life, it’s about providing experiences that were previously 
+									</p>
+            
+								</div>
+
+
+
+
+									
+											
+									</div>
+								</div>
+						</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    <div class="container">
+	
+	
+	
+      <div class="jumbotron bg-info-gradient-vertical">
+        <h1>Themestrap Kitchen Sink</h1>
+        <p>A quick preview of everything Bootstrap has to offer.</p>
+        <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+      </div>
+	  
+	  
+	  
+	  
+	  
+	 
+	  
+	  
+	 
+	   <div class="row">
+        <div class="col-xs-12">
+	  
+						  <table class="table hidden-xs hidden-sm">
+								 
+								  <tbody>
+									<tr>
+									  <td class="bg-primary"><p class="white">This div has primary background.</p><p class="black">This div has primary background.</p></td>
+									  <td class="bg-success"><p class="white">This div has sucess background.</p><p>This div has sucess background.</p></td>
+									   <td class="bg-info"><p class="white">This div has info background.</p><p>This div has info background.</p></td>
+										<td class="bg-warning"><p class="white">This div has warning background.</p><p>This div has warning background.</p></td>
+										 <td class="bg-danger"><p class="white">This div has danger background.</p><p>This div has danger background.</p></td>
+									</tr>
+									
+									 <tr>
+									  <td class="bg-gray-darker"><p class="white">This div has gray-darker background.</p><p>This div has gray-darker background.</p></td>
+									   <td class="bg-gray-dark"><p class="white">This div has gray-dark background.</p><p>This div has gray-dark background.</p></td>
+										<td class="bg-gray"><p class="white">This div has gray background.</p><p>This div has gray background.</p></td>
+										 <td class="bg-gray-light"><p class="white">This div has gray-light background.</p><p>This div has gray-light background.</p></td>
+										  <td class="bg-gray-lighter"><p class="white">This div has gray-lighter background.</p><p>This div has gray-lighter background.</p></td>
+									</tr>
+								   
+								  </tbody>
+						  </table>
+	  
+		</div>
+	 </div>
+	 
+	 
+	 
+	 </div>
+	 
+	 
+	 <div class="space"></div>
+	 
+	 
+	  <div class="container-fluid">
+	  
+	  
+	  <div class="row">
+	  
+	  
+					<div class="col-xs-12 col-md-6 bg-image" >
+				  
+								<div class="text-jumbo">
+								<h1 class="white no-margin-top text-uppercase">READY TO TALK ABOUT YOUR WEB DESIGN?</h1>
+								<h2 class="white no-margin-top">We could fill up an entire website with information on how to choose the right web design company in Dublin. 
+																You need to consider what your business hopes to achieve if the people you’re eyeing have the experience required, 
+																and of course, the age-old problem of cost. At the end of it all though, the quickest way to discover what our 
+																web design team can do for you is to pick up the phone and ask.
+								</h2>
+								</div> 
+				  
+					</div>
+					
+					<div class="col-xs-12 col-md-6 bg-info" style="padding:5%;">
+				  
+										<div class="text-jumbo">
+								<h1 class="black no-margin-top text-uppercase">READY TO TALK ABOUT YOUR WEB DESIGN?</h1>
+								<h2 class="black no-margin-top">We could fill up an entire website with information on how to choose the right web design company in Dublin. 
+																You need to consider what your business hopes to achieve if the people you’re eyeing have the experience required, 
+																and of course, the age-old problem of cost. At the end of it all though, the quickest way to discover what our 
+																web design team can do for you is to pick up the phone and ask.
+								</h2>
+								</div> 
+				  
+					</div>
+		
+	 </div>
+	 
+	 </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	  
+	   <div class="container">
+	  
+	  
+	  
+	  
+	  
+      <div class="row">
+        <div class="col-lg-6">
+         
+            <h1 class="page-header">h1 heading<small>With Small Text</small></h1>
+			
+			  <h1 class="page-header">h1 heading<small>With Small Text</small></h1>
+			  
+			  
+            <h1>This is an h1 heading <small>With Small Text</small></h1>
+			<p>
+			In general, cookies are used to retain user preferences, store information for things like shopping carts, and provide anonymised tracking data to 
+			third party applications like Google Analytics.
+			As a rule, cookies will make your browsing experience better. However, you may prefer to disable cookies on this site and on others. 
+			</p>
+            <h2>This is an h2 heading <small>With Small Text</small></h2>
+			<p>
+			In general, cookies are used to retain user preferences, store information for things like shopping carts, and provide anonymised tracking data to 
+			third party applications like Google Analytics.
+			As a rule, cookies will make your browsing experience better. However, you may prefer to disable cookies on this site and on others. 
+			</p>
+            <h3>This is an h3 heading <small>With Small Text</small></h3>
+			<p>
+			In general, cookies are used to retain user preferences, store information for things like shopping carts, and provide anonymised tracking data to 
+			third party applications like Google Analytics.
+			As a rule, cookies will make your browsing experience better. However, you may prefer to disable cookies on this site and on others. 
+			</p>
+            <h4>This is an h4 heading <small>With Small Text</small></h4>
+			<p>
+			In general, cookies are used to retain user preferences, store information for things like shopping carts, and provide anonymised tracking data to 
+			third party applications like Google Analytics.
+			As a rule, cookies will make your browsing experience better. However, you may prefer to disable cookies on this site and on others. 
+			</p>
+            <h5>This is an h5 heading <small>With Small Text</small></h5>
+			<p>
+			In general, cookies are used to retain user preferences, store information for things like shopping carts, and provide anonymised tracking data to 
+			third party applications like Google Analytics.
+			As a rule, cookies will make your browsing experience better. However, you may prefer to disable cookies on this site and on others. 
+			</p>
+            <h6>This is an h6 heading <small>With Small Text</small></h6>
+            
+         
+           
+        </div>
+		
+		
+		
+		
+		
+		
+		
+        <div class="col-lg-6">
+         
+			
+			 <h2 class="page-header">Page Header h2 heading</h2>
+			
+			 <h3 class="page-header">Page Header h3 heading</h3>
+			
+            <p class="lead">This is a lead paragraph.</p>
+            <p>This is an <b>ordinary paragraph</b> that is <i>long enough</i> to wrap to <u>multiple lines</u> so that you can see how the line spacing looks.
+			
+			<em>WordPress is an open source online content creation tool. To put it simply, its the easiest way to develop content for your website without all the technical know how and headaches.</em>
+			
+			This site uses cookies – small text files that are placed on your machine to help the site provide a better user experience. 
+			In general, cookies are used to retain user preferences, store information for things like shopping carts, and provide anonymised tracking data to 
+			third party applications like Google Analytics.
+			As a rule, cookies will make your browsing experience better. However, you may prefer to disable cookies on this site and on others. 
+			
+			</p>
+            <p class="text-muted">Muted color paragraph.</p>
+            <p class="text-warning">Warning color paragraph.</p>
+            <p class="text-danger">Danger color paragraph.</p>
+            <p class="text-info">Info color paragraph.</p>
+            <p class="text-success">Success color paragraph.</p>
+            <p><small>This is text in a <code>small</code> wrapper. <abbr title="No Big Deal">NBD</abbr>, right?</small></p>
+            <hr>
+            <address>                <strong>Twitter, Inc.</strong><br>                795 Folsom Ave, Suite 600<br>                San Francisco, CA 94107<br>                <abbr title="Phone">P:</abbr> (123) 456-7890              </address><address class="col-6">                <strong>Full Name</strong><br>                <a href="mailto:#">first.last@example.com</a>              </address>
+            <hr>
+            <blockquote>Here's what a blockquote looks like in Bootstrap. <small>Use <code>small</code> to identify the source.</small>
+            </blockquote>
+            <hr>
+            <div class="row">
+              <div class="col-xs-6">
+                <ul class="styled_bullets">
+                  <li>Normal Unordered List</li>
+                  <li>Can Also Work
+                    <ul>
+                      <li>With Nested Children</li>
+                    </ul>
+                  </li>
+                  <li>Adds Bullets to Page</li>
+                </ul>
+              </div>
+              <div class="col-xs-6">
+                <ol>
+                  <li>Normal Ordered List</li>
+                  <li>Can Also Work
+                    <ol>
+                      <li>With Nested Children</li>
+                    </ol>
+                  </li>
+                  <li>Adds Bullets to Page</li>
+                </ol>
+              </div>
+            </div>
+            <hr>
+            <pre>function preFormatting() {  // looks like this;  var something = somethingElse;  return true;}</pre>
+			
+			
+			
+		
+		
+      </div>
+	  
+	  </div>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="panel panel-default" id="headings">
+            <div class="panel-heading">Headings</div>
+            <div class="panel-body">
+            <h1 class="page-header">Page Header h1 heading<small>With Small Text</small></h1>
+			<h1 class="page-header">Page Header h1 heading<small>With Small Text</small></h1>
+			
+			 
+			
+            <h1>This is an h1 heading <small>With Small Text</small></h1>
+			<p>
+			In general, cookies are used to retain user preferences, store information for things like shopping carts, and provide anonymised tracking data to 
+			third party applications like Google Analytics.
+			As a rule, cookies will make your browsing experience better. However, you may prefer to disable cookies on this site and on others. 
+			</p>
+            <h2>This is an h2 heading <small>With Small Text</small></h2>
+			<p>
+			In general, cookies are used to retain user preferences, store information for things like shopping carts, and provide anonymised tracking data to 
+			third party applications like Google Analytics.
+			As a rule, cookies will make your browsing experience better. However, you may prefer to disable cookies on this site and on others. 
+			</p>
+            <h3>This is an h3 heading <small>With Small Text</small></h3>
+			<p>
+			In general, cookies are used to retain user preferences, store information for things like shopping carts, and provide anonymised tracking data to 
+			third party applications like Google Analytics.
+			As a rule, cookies will make your browsing experience better. However, you may prefer to disable cookies on this site and on others. 
+			</p>
+            <h4>This is an h4 heading <small>With Small Text</small></h4>
+			<p>
+			In general, cookies are used to retain user preferences, store information for things like shopping carts, and provide anonymised tracking data to 
+			third party applications like Google Analytics.
+			As a rule, cookies will make your browsing experience better. However, you may prefer to disable cookies on this site and on others. 
+			</p>
+            <h5>This is an h5 heading <small>With Small Text</small></h5>
+			<p>
+			In general, cookies are used to retain user preferences, store information for things like shopping carts, and provide anonymised tracking data to 
+			third party applications like Google Analytics.
+			As a rule, cookies will make your browsing experience better. However, you may prefer to disable cookies on this site and on others. 
+			</p>
+            <h6>This is an h6 heading <small>With Small Text</small></h6>
+            </div>
+          </div>
+          <div class="panel panel-default" id="tables">
+            <div class="panel-heading">Tables
+            </div>
+            <div class="panel-body">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Tables</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Michael</td>
+                  <td>Are formatted like this</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Lucille</td>
+                  <td>Do you like them?</td>
+                </tr>
+                <tr class="success">
+                  <td>3</td>
+                  <td>Success</td>
+                  <td></td>
+                </tr>
+                <tr class="danger">
+                  <td>4</td>
+                  <td>Danger</td>
+                  <td></td>
+                </tr>
+                <tr class="warning">
+                  <td>5</td>
+                  <td>Warning</td>
+                  <td></td>
+                </tr>
+                <tr class="active">
+                  <td>6</td>
+                  <td>Active</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table table-striped table-bordered table-condensed">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Tables</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Michael</td>
+                  <td>This one is bordered and condensed</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Lucille</td>
+                  <td>Do you still like it?</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+          </div>
+        </div>
+		
+		
+		
+		
+		
+		
+		
+        <div class="col-lg-6">
+          <div class="panel panel-default" id="content-formatting">
+            <div class="panel-heading">Content Formatting
+            </div>
+            <div class="panel-body">
+			
+			 <h2 class="page-header">Page Header h2 heading<small>With Small Text</small></h2>
+			 
+			 <h3 class="page-header">Page Header h3 heading</h3>
+			
+            <p class="lead">This is a lead paragraph.</p>
+            <p>This is an <b>ordinary paragraph</b> that is <i>long enough</i> to wrap to <u>multiple lines</u> so that you can see how the line spacing looks.
+			
+			This site uses cookies – small text files that are placed on your machine to help the site provide a better user experience. 
+			In general, cookies are used to retain user preferences, store information for things like shopping carts, and provide anonymised tracking data to 
+			third party applications like Google Analytics.
+			As a rule, cookies will make your browsing experience better. However, you may prefer to disable cookies on this site and on others. 
+			
+			</p>
+            <p class="text-muted">Muted color paragraph.</p>
+            <p class="text-warning">Warning color paragraph.</p>
+            <p class="text-danger">Danger color paragraph.</p>
+            <p class="text-info">Info color paragraph.</p>
+            <p class="text-success">Success color paragraph.</p>
+            <p><small>This is text in a <code>small</code> wrapper. <abbr title="No Big Deal">NBD</abbr>, right?</small></p>
+            <hr>
+            <address>                <strong>Twitter, Inc.</strong><br>                795 Folsom Ave, Suite 600<br>                San Francisco, CA 94107<br>                <abbr title="Phone">P:</abbr> (123) 456-7890              </address><address class="col-6">                <strong>Full Name</strong><br>                <a href="mailto:#">first.last@example.com</a>              </address>
+            <hr>
+            <blockquote>Here's what a blockquote looks like in Bootstrap. <small>Use <code>small</code> to identify the source.</small>
+            </blockquote>
+            <hr>
+            <div class="row">
+              <div class="col-xs-6">
+                <ul class="styled_bullets">
+                  <li>Normal Unordered List</li>
+                  <li>Can Also Work
+                    <ul>
+                      <li>With Nested Children</li>
+                    </ul>
+                  </li>
+                  <li>Adds Bullets to Page</li>
+                </ul>
+              </div>
+              <div class="col-xs-6">
+                <ol>
+                  <li>Normal Ordered List</li>
+                  <li>Can Also Work
+                    <ol>
+                      <li>With Nested Children</li>
+                    </ol>
+                  </li>
+                  <li>Adds Bullets to Page</li>
+                </ol>
+              </div>
+            </div>
+            <hr>
+            <pre>function preFormatting() {  // looks like this;  var something = somethingElse;  return true;}</pre>
+			
+			
+			
+			
+            </div>
+          </div>
+        </div>
+		
+      </div>
+	  
+	  
+	  
+	  
+      <div class="panel panel-default" id="forms">
+        <div class="panel-heading">Forms
+        </div>
+        <div class="panel-body">
+        <form>
+          <fieldset>
+            <legend>Legend</legend>
+            <div class="form-group">
+              <label for="exampleInputEmail">Email address</label>
+              <input type="text" class="form-control" id="exampleInputEmail" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword" placeholder="Password">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputFile">File input</label>
+              <input type="file" id="exampleInputFile">
+              <p class="help-block">Example block-level help text here.</p>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </fieldset>
+        </form>
+        <hr>
+        <form class="form-inline">
+          <input type="text" class="form-control" placeholder="Email" style="width: 200px;">
+          <input type="password" class="form-control" placeholder="Password" style="width: 200px;">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox">Remember me</label>
+          </div>
+          <button type="submit" class="btn btn-default">Sign in</button>
+        </form>
+        <hr>
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group has-warning">
+            <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group has-error">
+            <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group has-success">
+            <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+            <div class="col-lg-10">
+              <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox">Remember me</label>
+              </div>
+              <button type="submit" class="btn btn-default">Sign in</button>
+            </div>
+          </div>
+        </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="panel panel-default" id="buttons">
+            <div class="panel-heading">Buttons
+            </div>
+            <div class="panel-body">
+			
+			
+			
+			<h2>Justified Button Groups</h2>
+  <p>To span the entire width of the screen, use the .btn-group-justified class:</p>
+  <div class="btn-group btn-group-justified">
+    <a href="#" class="btn btn-primary">Apple</a>
+    <a href="#" class="btn btn-primary active disabled">Samsung</a>
+    <a href="#" class="btn btn-primary">Sony</a>
+  </div>
+  
+  <div class="space"></div>
+  
+  
+  <h2>Vertical Button Group</h2>
+  <p>Use the .btn-group-vertical class to create a vertical button group:</p>
+  <div class="btn-group-vertical">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <button type="button" class="btn btn-primary active disabled">Sony</button>
+  </div>
+  
+  <div class="space"></div>
+  
+			
+			<p class="bg-primary">
+					  <a href="#" class="btn btn-default black">Button Default</a>
+					
+					<a href="#" class="btn btn-primary black">btn-primary</a>
+					
+					<a href="#" class="btn btn-success black">btn-success</a>
+					
+					<a href="#" class="btn btn-info black">btn-info</a>
+					
+					<a href="#" class="btn btn-warning ">btn-warning</a>
+					  
+					  <a href="#" class="btn btn-danger">btn-danger</a>
+					  
+					   <a href="#" class="btn btn-lg btn-outline">btn-outline</a>
+					   
+					    <a href="#" class="btn btn-lg btn-transparent">btn-transparent</a>
+						
+					  </p>
+			
+			
+			
+              <p>
+                <button type="button" class="btn btn-lg btn-default">Default</button>
+                <button type="button" class="btn btn-lg btn-primary">Primary</button>
+                <button type="button" class="btn btn-lg btn-success">Success</button>
+                <button type="button" class="btn btn-lg btn-info">Info</button>
+                <button type="button" class="btn btn-lg btn-warning">Warning</button>
+                <button type="button" class="btn btn-lg btn-danger">Danger</button>
+                <button type="button" class="btn btn-lg btn-link">Link</button>
+              </p>
+              <p>
+                <button type="button" class="btn btn-default">Default</button>
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-info">Info</button>
+                <button type="button" class="btn btn-warning">Warning</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+                <button type="button" class="btn btn-link">Link</button>
+              </p>
+              <p>
+                <button type="button" class="btn btn-sm btn-default">Default</button>
+                <button type="button" class="btn btn-sm btn-primary">Primary</button>
+                <button type="button" class="btn btn-sm btn-success">Success</button>
+                <button type="button" class="btn btn-sm btn-info">Info</button>
+                <button type="button" class="btn btn-sm btn-warning">Warning</button>
+                <button type="button" class="btn btn-sm btn-danger">Danger</button>
+                <button type="button" class="btn btn-sm btn-link">Link</button>
+              </p>
+              <p>
+                <button type="button" class="btn btn-xs btn-default">Default</button>
+                <button type="button" class="btn btn-xs btn-primary">Primary</button>
+                <button type="button" class="btn btn-xs btn-success">Success</button>
+                <button type="button" class="btn btn-xs btn-info">Info</button>
+                <button type="button" class="btn btn-xs btn-warning">Warning</button>
+                <button type="button" class="btn btn-xs btn-danger">Danger</button>
+                <button type="button" class="btn btn-xs btn-link">Link</button>
+              </p>
+              <p>
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-star"></span> Glyphicons!</button>
+                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span></button>
+                <button type="button" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span></button>
+                <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-info-sign"></span></button>
+                <button type="button" class="btn btn-warning"><span class="glyphicon glyphicon-flash"></span></button>
+                <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-ban-circle"></span></button>
+                <button type="button" class="btn btn-link"><span class="glyphicon glyphicon-arrow-right"></span></button>
+              </p>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="panel panel-default" id="images">
+            <div class="panel-heading">Images
+            </div>
+            <div class="panel-body">
+            <p><img src="http://placehold.it/100x100" class="img-rounded">
+              <img src="http://placehold.it/100x100" class="img-circle">
+              <img src="http://placehold.it/100x100" class="img-thumbnail"></p>
+            </div>
+          </div>
+		  
+		  
+		  
+		  
+		  <div class="panel panel-default" id="images">
+            <div class="panel-heading">Breadcrumbs
+            </div>
+            <div class="panel-body">
+							with links...
+						   <ul class="breadcrumb">
+							  <li><a href="#">Home</a></li>
+							  <li><a href="#">Library</a></li>
+							  <li class="active"><a href="#">Data</a></li>
+							   <li><a href="#">Other</a></li>
+							</ul>
+							
+							
+							without links...
+						   <ul class="breadcrumb">
+							  <li>Home</li>
+							  <li>Library</li>
+							  <li class="active">Data</li>
+							   <li>Other</li>
+							</ul>
+							
+							
+            </div>
+          </div>
+		  
+		  
+		  
+		  
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="panel panel-default" id="dropdowns">
+            <div class="panel-heading">Dropdowns
+            </div>
+            <div class="panel-body clearfix">
+            <div class="dropdown">
+              <!-- Link or button to toggle dropdown -->
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu" style="display: block; position: static;">
+                <li class="dropdown-header">Dropdown header</li>
+                <li class="disabled">
+                  <a tabindex="-1" href="#">Action</a>
+                </li>
+                <li>
+                  <a tabindex="-1" href="#">Another action</a>
+                </li>
+                <li>
+                  <a tabindex="-1" href="#">Something else here</a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a tabindex="-1" href="#">Separated link</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9">
+		
+		
+		
+          <div class="panel panel-default" id="input-groups">
+            <div class="panel-heading">Input Groups
+            </div>
+            <div class="panel-body">
+            <div class="input-group">
+              <span class="input-group-btn">                <button class="btn btn-default" type="button">Go!</button>              </span><input type="text" class="form-control" placeholder="Username">
+            </div><br>
+            <div class="input-group">
+              <input type="text" class="form-control input-large">
+              <span class="input-group-addon input-large">.00</span>
+            </div><br>
+            <div class="input-group">
+              <span class="input-group-addon">$</span><input type="text" class="form-control">
+              <span class="input-group-addon">.00</span>
+            </div>
+            </div>
+          </div>
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+        </div>
+      </div>
+	  
+	  
+	  
+	  
+      <div class="row">
+	  
+	  
+        <div class="col-lg-12">
+						  <div class="panel panel-default" id="navs">
+							<div class="panel-heading">Navs
+							</div>
+							<div class="panel-body clearfix">
+							
+							
+							<h1>Tabs</h1>
+							
+							<p><code>These are static nav-tabs ie. They link to a new page. They don't stack or collapse</code></p>
+							<ul class="nav nav-tabs">
+							  <li>
+								<a href="#">nav-tabs Home</a>
+							  </li>
+							  
+							  <li class="active">
+								<a href="#">nav-tabs About  Active</a>
+							  </li>
+							  
+							   <li>
+								<a href="#">nav-tabs Contact</a>
+							  </li>
+							</ul>
+							
+							
+							
+							
+							<div class="space"></div>
+							
+							<p><code>These are static nav-tabs With Dropdown Menu. They link to a new page.</code></p>
+							
+							
+							<ul class="nav nav-tabs">
+							  <li class="active"><a href="#">Home</a></li>
+									  <li class="dropdown">
+										<a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu 1
+										<span class="caret"></span></a>
+										<ul class="dropdown-menu">
+										  <li><a href="#">Submenu 1-1</a></li>
+										  <li><a href="#">Submenu 1-2</a></li>
+										  <li><a href="#">Submenu 1-3</a></li>
+										</ul>
+									  </li>
+							  <li><a href="#">Menu 2</a></li>
+							  <li><a href="#">Menu 3</a></li>
+							</ul>
+							
+								<div class="space"></div>
+							
+							
+							
+							
+							<p><code>These are Toggleable / Dynamic nav-tabs. They show the content in the tab pane on the same page. 
+							They use the .nav-justified class. It allows them to stack on mobile and full width on desktop.</code></p>
+							
+							
+							<ul class="nav nav-tabs nav-justified">
+							  <li class="active"><a data-toggle="tab" href="#home"> <i class="fa fa-phone fa-lg"></i> Home nav-justified </a></li>
+							  <li><a data-toggle="tab" href="#menu1">Menu 1 nav-justified</a></li>
+							  <li><a data-toggle="tab" href="#menu2">Menu 2 nav-justified</a></li>
+							</ul>
+
+							<div class="tab-content">
+							  <div id="home" class="tab-pane fade in active">
+								<h3>HOME</h3>
+								<p>add data-toggle="tab" on the a link. Some content.</p>
+							  </div>
+							  <div id="menu1" class="tab-pane fade">
+								<h3>Menu 1</h3>
+								<p>Some content in menu 1.</p>
+							  </div>
+							  <div id="menu2" class="tab-pane fade">
+								<h3>Menu 2</h3>
+								<p>Some content in menu 2.</p>
+							  </div>
+							</div>
+							
+							<hr />
+										
+								<h1>Pills</h1>		
+								<div class="space"></div>
+								<p><code>These are inline nav-pills. They link to a new page.</code></p>
+								
+								 <ul class="nav nav-pills">
+								  <li><a href="#">nav-pills Home</a></li>
+								  <li class="active"><a href="#">nav-pills Menu 1</a></li>
+								  <li><a href="#">nav-pills Menu 2</a></li>
+								  <li><a href="#">nav-pills Menu 3</a></li>
+								</ul> 
+								
+								<div class="space"></div>
+								<p><code>Pills can also be displayed vertically. Just add the .nav-stacked class.</code></p>
+								
+								<ul class="nav nav-pills nav-stacked">
+								  <li class="active"><a href="#">nav-pills nav-stacked Home</a></li>
+								  <li><a href="#">nav-pills nav-stacked Menu 1</a></li>
+								  <li><a href="#">nav-pills nav-stacked Menu 2</a></li>
+								  <li><a href="#">nav-pills nav-stacked Menu 3</a></li>
+								</ul>
+							
+								
+								
+								<div class="space"></div>
+								<p><code>Pills With Dropdown Menu. </code></p>
+								
+								
+								<ul class="nav nav-pills nav-stacked">
+								  <li class="active"><a href="#">nav-pills nav-stacked Home</a></li>
+								  <li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu 1
+									<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+									  <li><a href="#">Submenu 1-1</a></li>
+									  <li><a href="#">Submenu 1-2</a></li>
+									  <li><a href="#">Submenu 1-3</a></li>
+									</ul>
+								  </li>
+								  <li><a href="#">Menu 2</a></li>
+								  <li><a href="#">Menu 3</a></li>
+								</ul>
+								
+								
+								
+								
+								
+								<div class="space"></div>
+								<p><code>Toggleable / Dynamic Pills.  They show the content in the tab pane on the same page.</code></p>
+								
+								<ul class="nav nav-pills">
+									  <li class="active"><a data-toggle="pill" href="#home1">Home</a></li>
+									  <li><a data-toggle="pill" href="#menu11">Menu 1</a></li>
+									  <li><a data-toggle="pill" href="#menu21">Menu 2</a></li>
+									</ul>
+
+									<div class="tab-content">
+									  <div id="home1" class="tab-pane fade">
+										<h3>HOME</h3>
+										<p>add data-toggle="pill" to a link. Some content.</p>
+									  </div>
+									  <div id="menu11" class="tab-pane fade in active">
+										<h3>Menu 1</h3>
+										<p>Some content in menu 1.</p>
+									  </div>
+									  <div id="menu21" class="tab-pane fade">
+										<h3>Menu 2</h3>
+										<p>Some content in menu 2.</p>
+									  </div>
+									</div>
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+							
+							</div>
+						  </div>
+        </div>
+		
+		
+        <div class="col-lg-12" id="navbar">
+          <div class="panel panel-default">
+            <div class="panel-heading">Navbar
+            </div>
+            <div class="panel-body">
+            <p></p>
+            <div class="navbar">
+              <div class="navbar-header">
+                <a href="#" class="navbar-brand">Your Company</a>
+              </div>
+              <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active">
+                    <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <a href="#">About</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="navbar navbar-inverse">
+              <div class="navbar-header">
+                <a href="#" class="navbar-brand">Your Company</a>
+              </div>
+              <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active">
+                    <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <a href="#">About</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="navbar">
+              <div class="collapse navbar-collapse">
+                <a class="btn btn-primary navbar-btn">Navbar Button</a>
+                <p class="navbar-text navbar-right">Navbar Text</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="panel panel-default" id="pagination">
+            <div class="panel-heading">Pagination
+            </div>
+            <div class="panel-body">
+            <ul class="pagination" style="margin-right: 10px;">
+              <li>
+                <a href="#">Prev</a>
+              </li>
+              <li>
+                <a href="#">1</a>
+              </li>
+              <li>
+                <a href="#">2</a>
+              </li>
+              <li class="active">
+                <a href="#">3</a>
+              </li>
+              <li>
+                <a href="#">4</a>
+              </li>
+              <li>
+                <a href="#">Next</a>
+              </li>
+            </ul>
+            <ul class="pagination pagination-lg">
+              <li>
+                <a href="#">Prev</a>
+              </li>
+              <li>
+                <a href="#">1</a>
+              </li>
+              <li class="active">
+                <a href="#">2</a>
+              </li>
+              <li>
+                <a href="#">3</a>
+              </li>
+              <li>
+                <a href="#">4</a>
+              </li>
+              <li>
+                <a href="#">Next</a>
+              </li>
+            </ul>
+            <ul class="pager">
+              <li>
+                <a href="#">Prev</a>
+              </li>
+              <li>
+                <a href="#">Next</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+          <div class="panel panel-default" id="labels">
+            <div class="panel-heading">Labels and Badges
+            </div>
+            <div class="panel-body">
+            <h3><span class="label label-default">Default</span>&nbsp;<span class="label label-success">Success</span>&nbsp;<span class="label label-warning">Warning</span>&nbsp;<span class="label label-danger">Danger</span>&nbsp;<span class="label label-info">Info</span></h3>
+            <p class="lead"><a href="#">Inbox <span class="badge">42</span></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="panel panel-default" id="alerts">
+            <div class="panel-heading">Alerts
+            </div>
+            <div class="panel-body">
+            <div>
+              <div class="alert alert-danger">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
+              </div>
+              <div class="alert alert-success">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.
+              </div>
+              <div class="alert alert-warning">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
+              </div>
+              <div class="alert alert-info">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
+              </div>
+              <div class="alert">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <h4>Warning!</h4>
+                <p>This is a block style alert.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="panel panel-default" id="progress">
+            <div class="panel-heading">Progress Bars
+            </div>
+            <div class="panel-body">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60% Complete</span></div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"><span class="sr-only">40% Complete (success)</span></div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"><span class="sr-only">20% Complete</span></div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="sr-only">60% Complete (warning)</span></div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><span class="sr-only">80% Complete (danger)</span></div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" style="width: 35%"><span class="sr-only">35% Complete (success)</span></div>
+                <div class="progress-bar progress-bar-warning" style="width: 20%"><span class="sr-only">20% Complete (warning)</span></div>
+                <div class="progress-bar progress-bar-danger" style="width: 10%"><span class='sr-only'>10% Complete (danger)</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="panel panel-default" id="media-object">
+            <div class="panel-heading">Media Object
+            </div>
+            <div class="panel-body">
+            <p></p>
+            <div class="media">
+              <a class="pull-left" href="#">    <img class="media-object" src="https://app.divshot.com/img/placeholder-64x64.gif">  </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                <p>This is the content for your media.</p>
+                <div class="media">
+                  <a class="pull-left" href="#">    <img class="media-object" src="https://app.divshot.com/img/placeholder-64x64.gif">  </a>
+                  <div class="media-body">
+                    <h4 class="media-heading">Media heading</h4>
+                    <p>This is the content for your media.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+      <div class="row">
+        <div class="col-lg-4">
+          <ul class="list-group">
+            <li class="list-group-item">This uses UL lists ss</li>
+            <li class="list-group-item">li class="list-group-item"</li>
+            <li class="list-group-item active"><a href="#">with a link</a></li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        </div>
+		
+		
+		
+		
+        <div class="col-lg-4">
+          <div class="list-group">
+            <a href="#" class="list-group-item"> <span class="badge">14</span>         This uses div class="list-group"        </a><a href="#" class="list-group-item  active">a href="#" class="list-group-item"        </a><a href="#" class="list-group-item">Morbi leo risus        </a><a href="#" class="list-group-item">Porta ac consectetur ac        </a><a href="#" class="list-group-item">Vestibulum at eros        </a>
+          </div>
+        </div>
+		
+		
+		
+		
+		
+        <div class="col-lg-4">
+          <div class="list-group">
+		  
+            <a href="#" class="list-group-item active">          
+				<h4 class="list-group-item-heading"> This uses div lists  List group item heading</h4>          
+					<p class="list-group-item-text">p class="list-group-item-text"</p>        
+			</a>
+			
+			<a href="#" class="list-group-item">          
+				<h4 class="list-group-item-heading">List group item heading</h4>          
+					<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+			</a>
+			
+			<a href="#" class="list-group-item"> 
+				<h4 class="list-group-item-heading">List group item heading</h4>
+					<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+			</a>
+			
+          </div>
+        </div>
+      </div>
+	  
+	  
+	  
+	  <hr/>
+	  
+	  
+	  
+	  <div class="row">
+	  
+        <div class="col-lg-4">
+		
+		
+		
+			<ul class="list-group">
+		  <li class="list-group-item">
+			<span class="badge">14</span>
+			This uses UL lists
+		  </li>
+		  <li class="list-group-item active">
+			<span class="badge">14</span>
+			Cras justo odio
+		  </li>
+		  
+		  <li class="list-group-item">
+			<span class="badge">14</span>
+			Cras justo odio
+		  </li>
+		</ul>
+		
+          
+        </div>
+		
+        <div class="col-lg-4">
+		
+		
+		
+		<p>Uses a custom list group styling in custom.less</p>
+		<ul class="list-group">
+			  <li><a href="#">ul class="list-group"</a> </li>
+			   <li><a href="#">a href="#"</a> </li>
+			   
+			   <li><a href="#" class="list-group-item  active">a href="#" class="list-group-item  active"</a> </li>
+			   
+							<ul class="list-group inner">
+								  <li><a href="#">ul class="list-group inner"</a> </li>
+								   <li><a href="#">Dapibus ac facilisis in</a> </li>
+								   <li><a href="#" class=" active">Morbi leo risus</a> </li>
+								   <li><a href="#" >Porta ac consectetur ac</a> </li>
+								   <li><a href="#" >Vestibulum at eros</a> </li>
+						</ul>
+			   
+			   <li><a href="#">Porta ac consectetur ac</a> </li>
+			   <li><a href="#">Vestibulum at eros</a> </li>
+		</ul>
+		
+		
+		
+		
+		
+         
+        </div>
+		
+        <div class="col-lg-4">
+		
+		
+		<div class="list-group">
+		  <button type="button" class="list-group-item">This uses div lists</button>
+		  <button type="button" class="list-group-item active">button type="button" class="list-group-item active"</button>
+		  <button type="button" class="list-group-item">button type="button" class="list-group-item"</button>
+		  <button type="button" class="list-group-item">Porta ac consectetur ac</button>
+		  <button type="button" class="list-group-item">Vestibulum at eros</button>
+		</div>
+		
+          
+        </div>
+		
+      </div>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="panel panel-primary" id="panels">
+            <div class="panel-heading">This is a header
+            </div>
+            <p class="panel-body">This site uses cookies – small text files that are placed on your machine to help the site provide a better user experience. In general, cookies are used to retain user preferences, store information for things like shopping carts, and provide anonymised tracking data to third party applications like Google Analytics. As a rule, cookies will make your browsing experience better. However, you may prefer to disable cookies on this site and on others. The most effective way to do this is to disable cookies in your browser. We suggest consulting the Help section of your browser or taking a look at the About Cookies website which offers guidance for all modern browsers</p>
+            <div class="panel-footer">This is a footer
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="panel panel-success">
+            <div class="panel-heading">This is a header
+            </div>
+            <div class="panel-body">This site uses cookies – small text files that are placed on your machine to help the site provide a better user experience. In general, cookies are used to retain user preferences, store information for things like shopping carts, and provide anonymised tracking data to third party applications like Google Analytics. As a rule, cookies will make your browsing experience better. However, you may prefer to disable cookies on this site and on others. The most effective way to do this is to disable cookies in your browser. We suggest consulting the Help section of your browser or taking a look at the About Cookies website which offers guidance for all modern browsers</div>
+            <div class="panel-footer">This is a footer
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="panel panel-danger">
+            <div class="panel-heading">This is a header
+            </div>
+            <div class="panel-body">This site uses cookies – small text files that are placed on your machine to help the site provide a better user experience. In general, cookies are used to retain user preferences, store information for things like shopping carts, and provide anonymised tracking data to third party applications like Google Analytics. As a rule, cookies will make your browsing experience better. However, you may prefer to disable cookies on this site and on others. The most effective way to do this is to disable cookies in your browser. We suggest consulting the Help section of your browser or taking a look at the About Cookies website which offers guidance for all modern browsers</div>
+            <div class="panel-footer">This is a footer
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="panel panel-warning">
+            <div class="panel-heading">This is a header
+            </div>
+            <div class="panel-body">This site uses cookies – small text files that are placed on your machine to help the site provide a better user experience. In general, cookies are used to retain user preferences, store information for things like shopping carts, and provide anonymised tracking data to third party applications like Google Analytics. As a rule, cookies will make your browsing experience better. However, you may prefer to disable cookies on this site and on others. The most effective way to do this is to disable cookies in your browser. We suggest consulting the Help section of your browser or taking a look at the About Cookies website which offers guidance for all modern browsers</div>
+            <div class="panel-footer">This is a footer
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="panel panel-info">
+            <div class="panel-heading">This is a header
+            </div>
+            <p class="panel-body">This site uses cookies – small text files that are placed on your machine to help the site provide a better user experience. In general, cookies are used to retain user preferences, store information for things like shopping carts, and provide anonymised tracking data to third party applications like Google Analytics. As a rule, cookies will make your browsing experience better. However, you may prefer to disable cookies on this site and on others. The most effective way to do this is to disable cookies in your browser. We suggest consulting the Help section of your browser or taking a look at the About Cookies website which offers guidance for all modern browsers</p>
+            <div class="panel-footer">This is a footer
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">This is a header
+            </div>
+            <div class="panel-body">This is a panel</div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">First Item</li>
+              <li class="list-group-item">Second Item</li>
+              <li class="list-group-item">Third Item</li>
+            </ul>
+            <div class="panel-footer">This is a footer
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="well" id="wells">Default Well
+          </div>
+          <div class="well well-small">Small Well
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="well well-large">Large Padding Well
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	   <!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Welcome to Modern Business
+                </h1>
+            </div>
+			
+			
+			
+            <div class="col-md-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0
+                    </div>
+                    <div class="panel-body">
+                        <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. 
+                        He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+			
+			
+			
+            <div class="col-md-4">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <i class="fa fa-fw fa-gift"></i> Free &amp; Open Source
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+			
+			
+			
+			
+            <div class="col-md-4">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <i class="fa fa-fw fa-compass"></i> Easy to Use
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+      </div><!-- end container -->
+      
+      
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	    <div class="container">
+      
+       <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Welcome</h2>
+            </div>
+            <div class="col-lg-6">
+                <p>Hybrid Auction.ie is the only website where you will Save 91% on high end luxury goods and 5 Star services. <span class="text-primary">WE EVEN GIVE AWAY FREE BIDS</span> so you can have fun and get started.</p>
+                    <p>BID on international trips to Asia, Europe, New York, the latest releases from Apple & Samsung, or fancy your chances to save 91% on Gucci, Fendi, Hugo Boss and much more.</p> 
+                    <p><span class="text-primary">EVERY ONE IS A WINNER</span> If the auction ends under the reserve price, the closest bidder gets back 5 times their original bid, and non winners get back the full amount as voucher credits.
+				</p>  
+        
+        
+        		</div>
+            
+            
+            <div class="col-lg-5 col-lg-offset-1">
+                                    
+                                    
+                                    
+                                    <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        Get Started with FREE Bids
+                    </div>
+                    <div class="panel-body">
+                        
+                                     <!-- Contact Form -->
+                                    <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                           
+                                            <form name="sentMessage" id="contactForm">
+                                                <div class="control-group form-group">
+                                                    <div class="controls">
+                                                        <label>First Name:</label>
+                                                        <input type="text" class="form-control input-md"  required="" id="fname" name="fname" placeholder="Please enter your first name.">
+                                                        <p class="help-block"></p>
+                                                    </div>
+                                                </div>
+                                                <div class="control-group form-group">
+                                                    <div class="controls">
+                                                        <label>Last Name:</label>
+                                                        <input type="text" class="form-control input-md"  required=""  id="lname" name="lname" placeholder="Please enter your last name.">
+                                                    </div>
+                                                </div>
+                                                <div class="control-group form-group">
+                                                    <div class="controls">
+                                                        <label>Email Address:</label>
+                                                        <input type="email" class="form-control input-md"  required=""  id="email" placeholder="Please enter your email address.">
+                                                    </div>
+                                                </div>
+                                                
+                                                <div id="success"></div>
+                                                <!-- For success/fail messages -->
+                                                <button type="submit" class="btn btn-success">Yes! Give Me My FREE Bids</button>
+                                            </form>
+                                        </div>
+                            
+                                    </div>
+                                    <!-- /.row -->
+                            
+                            
+                    </div>
+                </div>
+                                    
+                          
+            </div>
+            
+            
+            
+        </div>
+        <!-- /.row -->
+
+        <hr>
+      
+       </div><!-- end container -->
+      
+      
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    
+    <div class="container">
+    
+      <!-- Content Row -->
+        <div class="row">
+        
+       
+            <div class="col-md-6">
+                		
+                        
+                        
+                       <div class="thumbnail no-border shadows">
+                   		 <img src="images/training.jpg" class="img-responsive center-block" />
+                    
+                            <div class="caption">
+							
+                               <h1 class="text-center">We Train You</h1>
+                               
+                                <a href="training.html" class="btn btn-success btn-block">Read More</a>
+								  </ul>
+                            
+                            </div>
+                		</div>
+                        
+                        
+                 
+ 					  
+                      
+                    
+                
+            </div>
+            
+            
+            
+           
+            
+              <div class="col-md-6">
+                		
+                        
+                         <div class="thumbnail no-border shadows">
+                   		 <img src="images/clubs.jpg" class="img-responsive center-block" />
+                    
+                            <div class="caption">
+							
+                               <h1 class="text-center">Trade with our €50,000 Fund</h1>
+                               
+                                <a href="training.html" class="btn btn-primary btn-block">Read More</a>
+								  </ul>
+                            
+                            </div>
+                		</div>
+             
+            </div>
+            
+            
+         
+            
+            
+            <div class="col-md-6">
+                		
+                        
+						
+						 <div class="thumbnail no-border shadows">
+                   		 <img src="images/aftercare.jpg" class="img-responsive center-block" />
+                    
+                            <div class="caption">
+							
+                               <h1 class="text-center">Aftercare</h1>
+                               
+                                <a href="training.html" class="btn btn-warning btn-block">Read More</a>
+								  </ul>
+                            
+                            </div>
+                		</div>
+						
+                      
+                
+            </div>
+            
+            
+            
+             <div class="col-md-6">
+                		
+                        
+						<div class="thumbnail no-border shadows">
+                   		 <img src="images/mentoring_video.jpg" class="img-responsive center-block" />
+                    
+                            <div class="caption">
+							
+                               <h1 class="text-center">View Demo</h1>
+                               
+                                <a href="training.html" class="btn btn-danger btn-block">Watch Here</a>
+								  </ul>
+                            
+                            </div>
+                		</div>
+						
+						
+						
+						
+						
+            </div>
+            
+            
+            
+            
+            
+        </div>
+        <!-- /.row -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+         
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		  <!-- Content Row -->
+        <div class="row">
+        
+        
+        
+              <div class="col-md-4">
+                		
+                     
+                        
+                       <div class="thumbnail shadows">
+                   		 <img src="images/WeTrainYou.jpg" class="img-responsive center-block" />
+                    
+                    		
+                    
+                            <div class="caption">
+                               
+                            	<h2 class="text-center">Step by Step<br/><small>Trade like a professional</small><br/></h2>
+                               
+                                <a href="<?php echo get_page_link(9); ?>" class="text-center btn btn-primary btn-lg btn-block" >Find out How</a>
+								 
+                            
+                            </div>
+                		</div>
+                                           
+                  
+                
+            </div>
+            
+            
+            
+            
+            
+            
+            <div class="col-md-4">
+                		
+                     
+                        
+                       <div class="thumbnail shadows">
+                   		 <img src="images/WeTrainYou.jpg" class="img-responsive center-block" />
+                    
+                    		
+                    
+                            <div class="caption">
+                               
+                            	<h2 class="text-center">Step by Step<br/><small>Trade like a professional</small><br/></h2>
+                               
+                                <a href="<?php echo get_page_link(9); ?>" class="text-center btn btn-info btn-lg btn-block" >Find out How</a>
+								 
+                            
+                            </div>
+                		</div>
+                                           
+                  
+                
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+             <div class="col-md-4">
+                		
+                     
+                        
+                       <div class="thumbnail shadows">
+                   		 <img src="images/WeTrainYou.jpg" class="img-responsive center-block" />
+                    
+                    		
+                    
+                            <div class="caption">
+                               
+                            	<h2 class="text-center">Step by Step<br/><small>Trade like a professional</small><br/></h2>
+                               
+                                <a href="<?php echo get_page_link(9); ?>" class="text-center btn btn-success btn-lg btn-block" >Find out How</a>
+								 
+                            
+                            </div>
+                		</div>
+                                           
+                  
+                
+            </div>
+            
+     
+            
+        </div>
+        <!-- /.row -->
+    
+    
+    
+	
+	
+  
+    </div><!-- end main container -->
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="container">
+
+
+ <!-- Projects Row -->
+        <div class="row">
+        
+        <div class="col-lg-12">
+		<hr/>
+                <h1>
+                   Reviews...
+                </h1>
+            </div>
+            
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                
+                <p><img class="img-responsive pull-left padding" src="images/pegos-claros-reserva.jpg" alt="" />
+				
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Nam viverra euismod odio, gravida pellentesque urna varius vitae.Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+                Nam viverra euismod odio, gravida pellentesque. Nam viverra euismod odio, gravida pellentesque urna varius vitae.Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+                Nam viverra euismod odio, gravida pellentesque.Nam viverra euismod odio, gravida pellentesque urna varius vitae.Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+                Nam viverra euismod odio, gravida pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Nam viverra euismod odio, gravida pellentesque urna varius vitae.Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+                Nam viverra euismod odio, gravida pellentesque... <a href="#">Read more.</a></p><p> - <small>John Smith, Wine Review</small>
+				</p>
+            </div>
+            
+                 <div class="col-md-6 col-sm-6 col-xs-12">
+                
+                <p><img class="img-responsive pull-right padding" src="images/vajra-moscato-asti.jpg" alt="" />
+				
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Nam viverra euismod odio, gravida pellentesque urna varius vitae.Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+                Nam viverra euismod odio, gravida pellentesque. Nam viverra euismod odio, gravida pellentesque urna varius vitae.Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+                Nam viverra euismod odio, gravida pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Nam viverra euismod odio, gravida pellentesque urna varius vitae.Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+                Nam viverra euismod odio, gravida pellentesque... <a href="#">Read more.</a></p><p> - <small>John Smith, Wine Review</small></p>
+            </div>
+            
+                
+            
+        </div>
+        <!-- /.row -->
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!-- Projects Row -->
+        <div class="row">
+        
+        <div class="col-lg-12">
+		<hr/>
+                <h1>
+                   Reviews...
+                </h1>
+            </div>
+            
+          
+            
+                 <div class="col-xs-12 col-md-offset-3 col-md-9">
+                
+                <p><img class="img-responsive pull-right padding" src="images/vajra-moscato-asti.jpg" alt="" />
+				
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Nam viverra euismod odio, gravida pellentesque urna varius vitae.Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+                Nam viverra euismod odio, gravida pellentesque. Nam viverra euismod odio, gravida pellentesque urna varius vitae.Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+                Nam viverra euismod odio, gravida pellentesque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Nam viverra euismod odio, gravida pellentesque urna varius vitae.Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+                Nam viverra euismod odio, gravida pellentesque. Nam viverra euismod odio, gravida pellentesque urna varius vitae.Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+                Nam viverra euismod odio, gravida pellentesque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Nam viverra euismod odio, gravida pellentesque urna varius vitae.Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+                Nam viverra euismod odio, gravida pellentesque. Nam viverra euismod odio, gravida pellentesque urna varius vitae.Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+                Nam viverra euismod odio, gravida pellentesque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Nam viverra euismod odio, gravida pellentesque urna varius vitae.Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+                Nam viverra euismod odio, gravida pellentesque. Nam viverra euismod odio, gravida pellentesque urna varius vitae.Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+                Nam viverra euismod odio, gravida pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Nam viverra euismod odio, gravida pellentesque urna varius vitae.Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+                Nam viverra euismod odio, gravida pellentesque... <a href="#">Read more.</a></p><p> - <small>John Smith, Wine Review</small></p>
+            </div>
+            
+                
+            
+        </div>
+        <!-- /.row -->
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+    
+ </div><!-- end container -->
+   
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  </body>
+
+</html>
